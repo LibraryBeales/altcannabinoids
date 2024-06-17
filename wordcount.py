@@ -26,6 +26,6 @@ non_words = {word: count for word, count in word_counter.items() if word not in 
 
 most_common_non_words = Counter(non_words).most_common(30)
 
-print("Ten most used words not in the English Dictionary:")
+print("Twenty most used words not in the English Dictionary:")
 for word, count in most_common_non_words:
     print(f"{word}: {count}")
