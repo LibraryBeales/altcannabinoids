@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('redditscraper_thcp.csv')
+df = pd.read_csv('redditscraper_Colorado.csv')
 
 df['createdAt'] = pd.to_datetime(df['createdAt'])
 
