@@ -6,7 +6,7 @@ import re
 
 nltk.download('words')
 
-df = pd.read_csv('redditscraper_thca.csv')
+df = pd.read_csv('redditscraper_all.csv')
 
 def clean_and_tokenize(text):
     text = text.lower()
